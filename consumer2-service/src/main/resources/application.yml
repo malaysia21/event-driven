@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    stream:
+      binders:
+        local_rabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.99.100
+                port: 5672
+
+server.port: 0
