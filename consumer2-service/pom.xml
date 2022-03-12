@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>event-driven</artifactId>
+        <artifactId>event-driven-communication</artifactId>
         <groupId>com.aga.eventdriven</groupId>
         <version>1.0</version><!-- lookup parent from repository -->
     </parent>
@@ -12,7 +12,6 @@
     <artifactId>consumer2-service</artifactId>
     <version>1.0</version>
     <name>consumer2-service</name>
-
 
     <dependencies>
         <dependency>
@@ -46,6 +45,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.aga.consumer2service.Consumer2ServiceApplication.kt</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

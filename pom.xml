@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.aga.eventdriven</groupId>
-    <artifactId>event-driven</artifactId>
+    <artifactId>event-driven-communication</artifactId>
     <version>1.0</version>
-    <name>event-driven</name>
+    <name>event-driven-communication-spring-cloud-stream</name>
     <packaging>pom</packaging>
 
     <properties>
